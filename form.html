@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      img {
+        display: block;
+        max-width: 100%;
+        object-fit: cover;
+      }
+      button{
+        display: block;
+      }
+      label {
+        display: block;
+        font-size: 20px;
+        font-style: italic;
+        font-weight: bold;
+      }
+    </style>
+  </head>
+  <body style="font-family: cursive;">
+    <div class="signin">
+      <form action="submit" class="form">
+        <h2>SIGN IN</h2>
+        <span>It free and always will be</span><br /><br />
+        <input type="text" placeholder="Firstname" />
+        <input type="text" placeholder="Surname" />
+        <br />
+        <input type="number" placeholder="Phone or Email" /><br />
+        <input type="text" placeholder="ReEnter phone  number" /><br />
+        <input type="password" placeholder="New password" />
+        <div class="birth_day">
+          <label for="birthDay">Birth Day</label>
+          <select name="day" id="birthDay">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+          </select>
+          <select name="month">
+            <option value="Jan">Jan</option>
+            <option value="Jun">Jun</option>
+            <option value="July">July</option>
+            <option value="Dec">Dec</option>
+          </select>
+          <select name="year">
+            <option value="1999">1999</option>
+            <option value="2000">2000</option>
+            <option value="2001">2001</option>
+            <option value="2002">2002</option>
+          </select>
+          <span>Why do I need to provide my date of birth ?</span>
+        </div>
+        <img src="./image/fb.jpg" alt="" />
+        <div class="choose">
+          <label for="male"> <input type="radio" name="gender" id="male" />Male</label>
+          <label for="female"> <input type="radio" name="gender" id="female" />Female</label>
+        </div>
+        <button type="submit">Create account</button>
+      </form>
+    </div>
+  </body>
+</html>
