@@ -43,6 +43,7 @@ img {
 }
 svg {
   width: 20px;
+  color: #666;
 }
 input {
   width: 100%;
@@ -62,7 +63,8 @@ input {
   text-align: center;
   margin-bottom: 40px;
   font-style: italic;
-  text-shadow: 2px 3px 3px #747474;
+  color: #a5ccff;
+  text-shadow: 2px 3px 3px #0066eb;
 }
 .form_group {
   border-bottom: 1px solid #e6e6e6;

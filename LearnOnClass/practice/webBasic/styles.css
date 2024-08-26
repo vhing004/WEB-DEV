@@ -1,0 +1,153 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  transition: 0.25s;
+  font-family: cursive, sans-serif;
+}
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #f9f9f9;
+}
+img {
+  max-width: 100%;
+  object-fit: cover;
+}
+header {
+  background-color: #0077b0;
+  color: white;
+  padding: 10px 0;
+  text-align: center;
+}
+.header_logo {
+  width: 120px;
+  margin: 0 auto;
+}
+header h1 {
+  margin: 0;
+  font-size: 2em;
+}
+
+.header_list {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+  gap: 20px;
+  height: 40px;
+}
+
+.header_link {
+  display: block;
+  color: #fff;
+  text-decoration: none;
+  line-height: 40px;
+  font-weight: bold;
+}
+.header_link:hover {
+  transform: translateY(-5px);
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  gap: 20px;
+  padding: 20px;
+  color: #0077b0;
+}
+
+.main-content {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.main-content h2 {
+  margin-top: 0;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+}
+
+table,
+th,
+td {
+  border: 1px solid #ddd;
+}
+
+th,
+td {
+  padding: 8px;
+  text-align: left;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+form {
+  margin-top: 20px;
+}
+
+form label {
+  font-weight: bold;
+}
+
+form input[type="text"],
+form input[type="email"],
+form textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 8px 0;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+form input[type="submit"] {
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 4px;
+  background-color: #0077b0;
+}
+
+form input[type="submit"]:hover {
+  background-color: #1890e6;
+}
+
+.sidebar {
+  background-color: #f4f4f4;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+.sidebar a {
+  color: #0077b0;
+  text-decoration: none;
+}
+.sidebar_img {
+  width: 150px;
+  height: 150px;
+  overflow: hidden;
+  background-image: url("./me.jpg");
+  background-position: center;
+  background-size: cover;
+  border-radius: 5px;
+  margin: 20px 0;
+}
+
+footer {
+  background-color: #0077b0;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+  margin-top: 20px;
+}

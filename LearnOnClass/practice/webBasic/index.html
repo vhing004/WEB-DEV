@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Web Basic</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <div class="header_logo"><img src="./logo.png" /></div>
+      <nav class="header_nav">
+        <ul class="header_list">
+          <li class="header_item">
+            <a class="header_link" href="#">Trang chủ</a>
+          </li>
+          <li class="header_item">
+            <a class="header_link" href="#">Giới thiệu</a>
+          </li>
+          <li class="header_item">
+            <a class="header_link" href="#">Đào tạo</a>
+          </li>
+          <li class="header_item">
+            <a class="header_link" href="#">Tư vấn tuyển sinh</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <div class="container">
+      <section class="main-content">
+        <h2>Chào mừng bạn đến với HUMG</h2>
+        <p>
+          Đây là một trang web mẫu được tạo cho mục đích nộp bài tập. Dưới đây
+          là bảng với một số thông tin:
+        </p>
+
+        <table>
+          <thead>
+            <tr>
+              <th>Khoa</th>
+              <th>Thông tin</th>
+              <th>Điểm chuẩn</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Công nghệ thông tin</td>
+              <td>Là 1 ngành top trong trường</td>
+              <td>23.25 đ</td>
+            </tr>
+            <tr>
+              <td>Cơ điện tử</td>
+              <td>Là ngành cũng khá đông sinh viên trong trường</td>
+              <td>22.7 đ</td>
+            </tr>
+            <tr>
+              <td>Logictisc</td>
+              <td>Là ngành hot nhất hiện nay</td>
+              <td>23.5 đ</td>
+            </tr>
+          </tbody>
+        </table>
+
+        <h3>Liên hệ:</h3>
+        <form action="#">
+          <label for="name">Name:</label><br />
+          <input type="text" id="name" name="name" /><br /><br />
+
+          <label for="email">Email:</label><br />
+          <input type="email" id="email" name="email" /><br /><br />
+
+          <label for="message">Message:</label><br />
+          <textarea id="message" name="message"></textarea><br /><br />
+
+          <input type="submit" value="Submit" />
+        </form>
+      </section>
+
+      <aside class="sidebar">
+        <h2>About Me</h2>
+        <p>
+          Chào bạn, mình là 1 sinh viên trường HUMG khoa công nghệ thông tin và
+          mình đang học năm 3 với chuyên ngành Công nghệ phần mềm.
+        </p>
+        <div class="sidebar_img"></div>
+
+        <h2>Link My Social</h2>
+        <ul>
+          <li><a href="https://www.facebook.com/vinh.ak.3304">Facebook</a></li>
+          <li>
+            <a href="https://www.instagram.com/vinh.ak.3304/">Instagram</a>
+          </li>
+          <li><a href="https://www.tiktok.com/@dyvbok7oitgm">Tiktok</a></li>
+        </ul>
+      </aside>
+    </div>
+
+    <footer>
+      <p>&copy; 2024 My Website | Student of HUMG</p>
+    </footer>
+  </body>
+</html>
