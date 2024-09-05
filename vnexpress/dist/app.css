@@ -19,10 +19,9 @@ input {
 
 .header {
   font-size: 20px;
-  -webkit-flow-from: none;
   width: 100%;
   height: 100px;
-  background-color: #fff;
+  background-color: #652323;
 }
 
 /*# sourceMappingURL=app.css.map */
