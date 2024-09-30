@@ -1,4 +1,4 @@
-/* * {
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -24,7 +24,7 @@
   border: 1px solid;
   flex-grow: 1;;
   border-radius: 50rem;
-  animation: scale 0.5s infinite alternate;
+  /* animation: scale 0.5s infinite alternate; */
 }
 .box:nth-child(1) {
   animation-delay: 0.2s;
@@ -75,7 +75,7 @@
     scale: 0.5;
     opacity: 0.5;
   }
-} */
+}
 
 *{
   margin: 0;

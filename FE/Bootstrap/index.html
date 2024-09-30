@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Trang Web Đầy Đủ với Bootstrap</title>
+
+    <!-- Liên kết tới Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="app.css" />
+
+    <style>
+      .sidebar {
+        height: 100vh;
+      }
+
+      .main-section {
+        height: 100%;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="fixed-top navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Developer { }</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="true"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">6
+              <a class="nav-link active" aria-current="page" href="#"
+                >Trang Chủ</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Giới Thiệu</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Dịch Vụ</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Liên Hệ</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Banner -->
+    <div class="banner">
+      <img src="image/dev.jpg" />
+    </div>
+
+    <div class="container-fluid">
+      <div class="row">
+        <!-- Sidebar -->
+        <nav
+          class="d-sm-none col-md-3 col-lg-2 bg-light sidebar d-md-block p-3"
+        >
+          <h4 class="text-primary">Danh mục</h4>
+          <ul class="nav flex-column">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#"
+                >Trang chủ</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Giới thiệu</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Dịch vụ</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Liên hệ</a>
+            </li>
+          </ul>
+        </nav>
+
+        <!-- Main Section -->
+        <main class="col-md-9 col-lg-10 main-section p-4">
+          <h2 class="title text-center">Nội dung chính</h2>
+          <p class="desc text-center">
+            A developer may specialize in specific game engines or specific
+            video game consoles, or may develop for several systems (including
+            personal computers and mobile devices).Some focus on porting games
+            from one system to another, or translating games from one language
+            to another. Less commonly, some do software development work in
+            addition to games.
+          </p>
+
+          <div class="row">
+            <div class="col-md-6 img">
+              <h3>Game Developer</h3>
+
+              <p>
+                Lập trình game chính là công việc thực hiện lập trình các sản
+                phẩm, ứng dụng với mục đích chính là giúp người dùng giải trí.
+                Do đó, lập trình game sẽ có đặc thù khác so với những công việc
+                lập trình để phục vụ cho kinh doanh khác.
+              </p>
+
+              <img
+                src="image/dev1.jpeg"
+                class="img-fluid"
+                alt="Hình minh họa AHR 1"
+              />
+            </div>
+
+            <div class="col-md-6 img">
+              <h3>App Developer</h3>
+
+              <p>
+                Với sự phát triển nhanh chóng của công nghệ và Internet đã giúp
+                các thiết bị di động trở thành một phần không thể thiếu trong
+                cuộc sống con người. Điều này tạo ra một cơ hội tuyệt vời cho
+                những Mobile App Developer, họ là những nhà phát triển ứng dụng
+                tên các chiếc smartphone bạn đang sử dụng
+              </p>
+
+              <img
+                src="image/dev2.webp"
+                class="img-fluid"
+                alt="Hình minh họa AHR 2"
+              />
+            </div>
+          </div>
+
+          <div class="row mt-4">
+            <div class="col-md-12">
+              <h3>Developer</h3>
+
+              <p>
+                Developer là một trong những tên gọi khác của ngành lập trình
+                viên. Vị trí này cũng hay được viết tắt bởi 3 chữ cái đầu tiên
+                là DEV. Công việc chính của những người này là viết code, tạo ra
+                các phần mềm, chương trình và ứng dụng dùng cho các thiết bị
+                điện tử như điện thoại hoặc máy tính. Một Developer chuyên
+                nghiệp có khả năng sử dụng đa dạng các ngôn ngữ lập trình khác
+                nhau để thiết kế những chương trình cũng như bảo trì chúng. Hiện
+                nay, nhờ sự phát triển không ngừng của công nghệ thông tin, nhu
+                cầu tuyển dụng Developer theo đó gia tăng ở các doanh nghiệp,
+                công ty.
+              </p>
+
+              <img
+                src="image/dev2.jpg"
+                class="img-fluid"
+                alt="Hình minh họa AHR lớn"
+              />
+            </div>
+          </div>
+        </main>
+      </div>
+    </div>
+
+    <!-- Footer -->
+
+    <footer class="footer bg-dark text-white text-center">
+      <p>© 2024 Infomation Technology Developer !</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
